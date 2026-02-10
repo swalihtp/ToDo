@@ -33,7 +33,7 @@ function ToDoList() {
           onChange={handleInputChange}
         />
         <button className="btn btn-success" onClick={addTask}>
-          Add
+          Add Task
         </button>
       </div>
 
@@ -48,7 +48,7 @@ function ToDoList() {
               onClick={() => deleteTask(index)}
               className="btn btn-sm btn-danger"
             >
-              Delete
+              '❌Delete
             </button>
           </li>
         ))}
